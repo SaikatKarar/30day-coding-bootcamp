@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
+import Hero from './components/Hero'
 
 function App() {
   return (
@@ -8,6 +9,10 @@ function App() {
       {/* -- START WRAPPER -- */}
       <div className="flex flex-col min-h-screen">
         <Header />
+        {/* // <!-- START MAIN --> */}
+        <main>
+          <Hero />
+        </main>
       </div>
 
     </div>
