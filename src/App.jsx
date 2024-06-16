@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import Benefits from './components/Benefits'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         {/* // <!-- START MAIN --> */}
         <main>
           <Hero />
+          <Benefits />
         </main>
       </div>
 

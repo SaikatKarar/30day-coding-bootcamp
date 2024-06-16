@@ -1,3 +1,10 @@
+import guides from '../../assets/images/icon-guides.svg';
+import courses from '../../assets/images/icon-courses.svg';
+import whatsapp from '../../assets/images/icon-whatsapp.svg';
+import sessions from '../../assets/images/icon-sessions.svg';
+
+
+
 export const navigation = [
     {
         id: "0",
@@ -85,3 +92,27 @@ export const collabApps = [
         height: 32,
     },
 ];
+
+export const benefits = [
+    {
+        id: "1",
+        title: "5+ Guides for Free",
+        icon: guides,
+    },
+    {
+        id: "2",
+        title: "Exclusive Courses & Projects",
+        icon: courses,
+    },
+    {
+        id: "3",
+        title: "24/7 WhatsApp Support Group",
+        icon: whatsapp,
+    },
+    {
+        id: "4",
+        title: "1:1 Free Session",
+        icon: sessions,
+    }
+];
+

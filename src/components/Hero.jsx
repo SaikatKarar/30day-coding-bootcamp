@@ -7,7 +7,7 @@ const Hero = () => {
         <section className="py-12 bg-white sm:py-16 lg:pb-20 xl:pb-24" id="intro">
             {/* <!-- START HERO --> */}
             <div className='px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-2xl'>
-                <div className="flex flex-col items-center lg:flex-row gap-y-12 lg:gap-x-16">
+                <div className="flex flex-col items-center lg:flex-row gap-y-14 lg:gap-x-16">
                     <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-2xl">
                         <div className="flex flex-col items-center lg:flex-row gap-y-12 lg:gap-x-16">
                             <div className="text-center lg:text-left lg:flex-1 lg:min-w-0">
@@ -67,8 +67,6 @@ const Hero = () => {
                                 ))}
                             </ul>
 
-                            {/* <LeftCurve />
-                <RightCurve /> */}
                         </div>
                     </div>
                 </div>
