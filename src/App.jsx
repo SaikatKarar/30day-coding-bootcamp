@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Benefits from './components/Benefits'
+import Testimonials from './components/Testimonials'
+import PricingSection from './components/PricingSection'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <main>
           <Hero />
           <Benefits />
+          <Testimonials />
+          <PricingSection />
         </main>
       </div>
 

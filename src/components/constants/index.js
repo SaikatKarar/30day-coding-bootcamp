@@ -2,6 +2,12 @@ import guides from '../../assets/images/icon-guides.svg';
 import courses from '../../assets/images/icon-courses.svg';
 import whatsapp from '../../assets/images/icon-whatsapp.svg';
 import sessions from '../../assets/images/icon-sessions.svg';
+import star from '../../assets/images/icon-star.svg';
+import aryan from '../../assets/images/avatars/avatar-aryan.webp';
+import kevin from '../../assets/images/avatars/avatar-kevin.webp';
+import umang from '../../assets/images/avatars/avatar-umang.webp';
+import avatar1 from '../../assets/images/avatars/avatar-1.png';
+import avatar2 from '../../assets/images/avatars/avatar-2.png';
 
 
 
@@ -116,3 +122,75 @@ export const benefits = [
     }
 ];
 
+export const testimonials = [
+    {
+        id: "1",
+        name: "Aryan Singh",
+        title: '"This community has been a game-changer for my career. The exclusive courses and personalized guidance from expert mentors have helped me take my coding skills to the next level."',
+        icon: aryan,
+        starIcon: star,
+        company: "SWE at Google"
+    },
+    {
+        id: "2",
+        name: "Kevin Smith",
+        title: '"The exclusive courses and bi-weekly live sessions have been incredibly insightful, and collaborating on open-source projects has been a great way to build my portfolio. I highly recommend this community."',
+        icon: kevin,
+        starIcon: star,
+        company: "SWE at Tesla"
+    },
+    {
+        id: "3",
+        name: "Umang Chaudhary",
+        title: '"Joining this community was one of the best decisions I`ve made for my career. The 24/7 WhatsApp group has been an incredible resource for networking and collaboration. I highly recommend this community"',
+        icon: umang,
+        starIcon: star,
+        company: "SWE at Tiktok"
+    }
+];
+
+export const pricedata = {
+    header: {
+        title: "Simple no-tricks pricing",
+        subtitle: "Everything you need to grow 10x for less than a coffee.",
+    },
+    pricingCard: {
+        content: {
+            title: "Premium Elite Subscription",
+            description: "Join founders, freelancers, designers, FAANG engineers, indie hackers, and more in our 24/7 WhatsApp Group for less than a cup of coffee.",
+
+            includedTitle: "What's included",
+
+            features: [
+                "Expert Mentors",
+                "Exclusive Courses",
+                "Networking & Collaboration",
+                "Career guidance"
+            ],
+        },
+        priceBox: {
+            priceLabel: "Less than a cup of coffee",
+
+            priceValue: "$5",
+
+            strikePrice: "$1000",
+
+            cta: {
+                text: "Join Community",
+                url: "https://nas.io/30dayscoding",
+            },
+            members: {
+                avatars: [
+                    aryan,
+                    kevin,
+                    umang,
+                    avatar1,
+                    avatar2
+                ],
+                avatarClass: "relative z-30 inline-block w-8 h-8 rounded-full ring-2 ring-white",
+                memberText: "100+ Active Members",
+                memberTextClass: "text-sm font-medium text-gray-950"
+            }
+        }
+    }
+};
