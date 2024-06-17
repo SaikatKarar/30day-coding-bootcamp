@@ -8,6 +8,9 @@ import kevin from '../../assets/images/avatars/avatar-kevin.webp';
 import umang from '../../assets/images/avatars/avatar-umang.webp';
 import avatar1 from '../../assets/images/avatars/avatar-1.png';
 import avatar2 from '../../assets/images/avatars/avatar-2.png';
+import mentors from '../../assets/images/illustration-mentors.svg';
+import networking from '../../assets/images/illustration-networking.svg';
+import illustrationCourses from '../../assets/images/illustration-courses.svg';
 
 
 
@@ -194,3 +197,24 @@ export const pricedata = {
         }
     }
 };
+
+export const community = [
+    {
+        id: "0",
+        icon: mentors,
+        title: "EXPERT MENTORS",
+        subtitle: "Unleashing your digital potential for lasting success"
+    },
+    {
+        id: "1",
+        icon: networking,
+        title: "NETWORKING",
+        subtitle: "Connect with like-minded coders from around the world and collaborate on exciting projects."
+    },
+    {
+        id: "2",
+        icon: illustrationCourses,
+        title: "COURSES",
+        subtitle: "Exclusive courses in Full Stack, AI, Blockchain, and more to help you stay ahead of the curve."
+    }
+]

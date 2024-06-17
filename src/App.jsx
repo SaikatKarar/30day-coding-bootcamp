@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Benefits from './components/Benefits'
 import Testimonials from './components/Testimonials'
 import PricingSection from './components/PricingSection'
+import Community from './components/Community'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Benefits />
           <Testimonials />
           <PricingSection />
+          <Community />
         </main>
       </div>
 
