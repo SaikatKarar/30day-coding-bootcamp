@@ -5,6 +5,9 @@ import Benefits from './components/Benefits'
 import Testimonials from './components/Testimonials'
 import PricingSection from './components/PricingSection'
 import Community from './components/Community'
+import CompanyLogos from './components/CompanyLogos'
+import Footer from './components/Footer'
+import CompetitiveEdgeSection from './components/CompetitiveEdgeSection'
 
 function App() {
   return (
@@ -20,7 +23,10 @@ function App() {
           <Testimonials />
           <PricingSection />
           <Community />
+          <CompanyLogos />
+          <CompetitiveEdgeSection />
         </main>
+        <Footer />
       </div>
 
     </div>

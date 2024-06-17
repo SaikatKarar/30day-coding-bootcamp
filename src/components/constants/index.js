@@ -11,7 +11,16 @@ import avatar2 from '../../assets/images/avatars/avatar-2.png';
 import mentors from '../../assets/images/illustration-mentors.svg';
 import networking from '../../assets/images/illustration-networking.svg';
 import illustrationCourses from '../../assets/images/illustration-courses.svg';
-
+import adobe from '../../assets/images/company-logos/adobe.svg';
+import airbnb from '../../assets/images/company-logos/airbnb.svg';
+import figma from '../../assets/images/company-logos/figma.svg';
+import framer from '../../assets/images/company-logos/framer.svg';
+import google from '../../assets/images/company-logos/google.svg';
+import dropbox from '../../assets/images/company-logos/dropbox.svg';
+import twitterIcon from '../../assets/images/icon-twitter.svg';
+import youtubeIcon from '../../assets/images/icon-youtube.svg';
+import linkedinIcon from '../../assets/images/icon-linkedin.svg';
+import instagramIcon from '../../assets/images/icon-instagram.svg';
 
 
 export const navigation = [
@@ -217,4 +226,43 @@ export const community = [
         title: "COURSES",
         subtitle: "Exclusive courses in Full Stack, AI, Blockchain, and more to help you stay ahead of the curve."
     }
+]
+export const companyLogos = [
+    {
+        id: "0",
+        icon: adobe,
+        name: "adobe"
+    },
+    {
+        id: "2",
+        icon: airbnb,
+        name: "airbnb"
+    },
+    {
+        id: "3",
+        icon: figma,
+        name: "figma"
+    },
+    {
+        id: "4",
+        icon: framer,
+        name: "framer"
+    },
+    {
+        id: "5",
+        icon: google,
+        name: "google"
+    },
+    {
+        id: "6",
+        icon: dropbox,
+        name: "dropbox"
+    }
+];
+
+export const footerIcon = [
+    { href: "https://twitter.com/", title: "Twitter", icon: twitterIcon },
+    { href: "https://youtube.com/", title: "YouTube", icon: youtubeIcon },
+    { href: "https://linkedin.com/", title: "LinkedIn", icon: linkedinIcon },
+    { href: "https://instagram.com/", title: "Instagram", icon: instagramIcon }
 ]

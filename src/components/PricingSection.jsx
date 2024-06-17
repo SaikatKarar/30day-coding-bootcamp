@@ -4,7 +4,7 @@ import checkIcon from '../assets/images/icon-check.svg';
 
 const PricingSection = () => {
     return (
-        <section className="pt-12 pb-1 bg-white mb-12 sm:pt-16 xl:pt-24 lg:pt-20">
+        <section className="pt-12 pb-1 bg-white mb-12 sm:pt-16 xl:pt-24 lg:pt-20" id='pricing'>
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-screen-2xl">
                 <div className="max-w-lg mx-auto text-center lg:max-w-3xl">
                     <h2 className="text-3xl font-bold tracking-tight uppercase sm:text-4xl lg:text-5xl 2xl:text-6xl text-gray-950">
